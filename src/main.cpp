@@ -18,7 +18,7 @@ void loop (void)
       Serial.print(i);
       Serial.print(" ON");
       digitalWrite(4,HIGH);
-      delay(35);
+      delay(60);
       Serial.println(" OFF");
       digitalWrite(4,LOW);
       delay(1000);
